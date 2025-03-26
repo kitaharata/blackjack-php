@@ -233,14 +233,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'playerHand'          => $playerHand,
             'dealerHand'          => $dealerHand,
             'playerValue'         => $playerValue,
-            'dealerValue'         => $dealerValue,      // 表示用スコア
-            'dealerFullValue'     => $dealerFullValue,  // 内部計算用フルスコア
+            'dealerValue'         => $dealerValue,       // 表示用スコア
+            'dealerFullValue'     => $dealerFullValue,   // 内部計算用フルスコア
             'playerBusted'        => $playerBusted,
             'dealerBusted'        => $dealerBusted,
             'message'             => $message,
             'gameOver'            => $gameOver,
-            'player_blackjack'    => $playerBlackjack,  // 初期BJ判定結果
-            'dealer_blackjack'    => $dealerBlackjack,  // 初期BJ判定結果
+            'player_blackjack'    => $playerBlackjack,   // 初期BJ判定結果
+            'dealer_blackjack'    => $dealerBlackjack,   // 初期BJ判定結果
             'dealer_turn_started' => $dealerTurnStarted,
         ];
 
